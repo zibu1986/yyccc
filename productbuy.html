@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<title>确认下单</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+            <!--  日期插件-->
+        <link rel="stylesheet" type="text/css" href="css/LCalendar.min.css"/>
+        <link rel="stylesheet" type="text/css" href="productbuy/productbuy.css"/>
+        <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.js" ></script>
+                <!--  日期插件-->
+        <script src="js/LCalendar.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/gpsaddress.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="">
+		<div id="head" class="clearfix">
+			<a class="fl" href="javascript:history.back(-1)"></a>
+			<p class="fl">确认下单</p>
+		</div>
+<!--要购买的商品	-->
+		<div id="content" class="clearfix ">
+			<img class="fl"  src="img/homecommend1.png"/>
+			<div class="fr ">
+					<p class="listTitle">皮质沙发清洗</p>
+					<p class="listmotion " > 
+						50
+					</p>	
+			</div>	
+		</div>
+<!--商品数量-->
+<ul id="number">
+	<li class="clearfix">购买数量 
+		<div class="number clearfix fr">
+			<button  class="fr" onclick="add()">+</button>
+			<p class="fr">1</p>
+			<button class="fr" onclick="reduce(this)">-</button>
+	    </div>  
+	</li>
+	<li><input type="text" class=""  placeholder="请选择服务地址" /> </li>
+	<li>
+		<input style="width: 1.36rem;" type="text" id="riqi1"  placeholder="请选择上门日期" />
+		<select style="border: none;">
+			<option>08：00-09：00</option>
+			<option>09：00-10：00</option>
+			<option>10：00-11：00</option>
+			<option>11：00-12：00</option>
+			<option>12：00-13：00</option>
+			<option>13：00-14：00</option>
+			<option>14：00-15：00</option>
+			<option>15：00-16：00</option>
+			<option>16：00-17：00</option>
+			<option>17：00-18：00</option>
+			<option>18：00-19：00</option>
+			<option>19：00-20：00</option>
+		</select>
+	</li>
+	<li><input type="text" class=""  placeholder="请选择联系人" /></li>
+	<!--<li><input type="text" class=""  placeholder="手机号" /></li>-->
+	<li><input type="text" class=""  placeholder="如有特殊要求，请给商家留言" /></li></li>
+</ul>
+<div id="prompt">
+	<p>温馨提示</p>
+	<p>清仔细核对你填写的手机号，并保持电话畅通</p>
+	
+</div>
+
+<div id="bottom" class="clearfix">
+<p class="fl">待支付：</p>	<p class="fl" style=""> <span style="color: #7EB1FE;">50</span>元</p> <a class="fl">立即购买</a>
+</div>
+<script src="goumai/goumai.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+

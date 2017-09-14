@@ -1,0 +1,66 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p{text-align: center;
+        width: 40%;
+        margin-left: 24.3%;
+		font-size: 18px;
+		color: #333333;
+		margin-left: ;
+		}
+#content{height: 1.5rem;padding-left: 0.15rem;background: #7EB1FE;
+         }
+#content p:nth-of-type(1){line-height: 0.75rem; font-size: 15px;color: white; }
+#content p:nth-of-type(2){font-size: 36px;line-height: 0.4rem;color: white;}
+#content1{height: 1.3rem;color: #333333;padding-left: 0.15rem;background: white;
+ 		background-image: url(../img/conring.png);
+ 		background-position: 96% center;
+ 		background-repeat: no-repeat;
+ 		background-size: 0.09rem 0.15rem;
+         }
+#content1 p:nth-of-type(1){line-height: 0.75rem; font-size: 15px; }
+#content1 p:nth-of-type(2){font-size: 36px;line-height: 0.4rem;}
+#content2{display: block; color: #333333;padding-left: 0.15rem;background: white;
+ 		background-image: url(../img/conring.png);
+ 		background-position: 96% center;
+ 		background-repeat: no-repeat;
+ 		background-size: 0.09rem 0.15rem;
+ 		margin-top: 0.05rem;
+         }
+#content2 p{line-height: 0.45rem; font-size: 15px; }
+
+
+	
+#bottom {height: 0.45rem;
+		width: 3.75rem;
+		background: white;
+         padding-top: 0.05rem;
+         padding-bottom: 0.05rem;
+		border-top: solid 1px #EEEEEE;
+		border-bottom: solid 1px #EEEEEE;}
+			
+#bottom a{box-sizing: border-box;
+			display: block;
+			width: 25%;
+			border-left: solid 1px #EEEEEE;
+			
+			}
+
+#bottom a img{	width: 0.16rem;
+				height: 0.16rem;
+				display: block;
+				margin-left: 0.38rem;
+				margin-bottom: 0.05rem;
+				margin-top: 0.08rem;
+				      
+}
+#bottom a p{	font-size: 9px;
+				color: #ADADAD;
+				width: 100%;
+				text-align: center;			
+}
+		

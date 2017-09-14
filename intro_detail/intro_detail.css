@@ -1,0 +1,29 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p{text-align: center;
+        width: 40%;
+        margin-left: 24.3%;
+		font-size: 18px;
+		color: #333333;
+		margin-left: ;
+		}
+
+
+#content img{width: 0.64rem;
+			height: 0.64rem;
+			margin: 1rem auto;
+			display: block;
+			margin-bottom: 0.2rem;
+			}
+#content p{font-size: 15px;
+			text-align: center;
+			color: #444444;
+			height: 0.8rem;
+			line-height: 0.8rem;
+			}
+		

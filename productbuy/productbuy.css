@@ -1,0 +1,144 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p{text-align: center;
+        width: 40%;
+        margin-left: 24.3%;
+		font-size: 18px;
+		color: #333333;
+		margin-left: ;
+		}
+/*购买商品*/
+#content{width: 100%;
+    	padding-bottom: 0.13rem;
+        padding-top: 0.13rem;
+        border-bottom: solid 5px #EEEEEE;
+		}      
+#content  img{
+				margin-left:0.15rem;
+ 				width: 30.7%;
+ 				display: block;}
+#content div{width: 56%;margin-right: 0.15rem;height: 0.72rem;}	
+.listTitle{font-size: 15px;
+           height: 0.19rem;
+           line-height: 0.19rem;  
+           }
+.listmotion{height: 0.16rem;
+			width: 100%;
+	        color: #9BC3FF;
+			font-size: 15px;
+	        margin-top: 0.26rem;}
+.listmotion:before{
+	content: "￥";
+	color: #9BC3FF;
+	font-size: 15px;
+}
+.listmotion:after{
+	content: "元";
+	color: #9BC3FF;
+	font-size: 15px;
+}
+/*商品数量*/
+
+#number li{color: #CCCCCC;
+			border-bottom: solid 1px #EEEEEE;
+			font-size: 15px;
+			padding-left: 0.38rem;
+			line-height: 0.25rem;
+			padding-top: 0.1rem;
+			padding-bottom: 0.1rem;
+			}
+#number li input{line-height: 0.25rem;
+				width: 3.12rem;	
+				border: none;
+}
+
+#number li:nth-of-type(2) input{background-image: url(../img/conring.png);
+								background-repeat: no-repeat;
+						 		background-size:0.09rem 0.15rem;
+						 		background-position:100%  50%;
+						 		padding-right: 0.1rem;
+						 		}
+					 		
+.number button{display: block;
+				border: solid 1px #CCCCCC;
+				width: 0.25rem;
+				height: 0.25rem;
+				line-height: 0.22rem;
+				padding-bottom: 0.03rem;
+				font-size: 20px;
+				color: #7EB1FE;
+				border-radius: 100%;
+				background: #FFFFFF;}
+.number{margin-right: 0.15rem;}				
+.number p{display: block;
+				width: 0.3rem;
+				text-align: center;
+				height: 0.25rem;
+				font-size: 16px;}
+
+			
+#number li:nth-of-type(1){background-image: url(../img/form1.png);
+						background-repeat: no-repeat;
+						 background-size:0.14rem 0.16rem;
+						 background-position:4%  50%;}
+#number li:nth-of-type(2){background-image: url(../img/form2.png);
+						background-repeat: no-repeat;
+						 background-size:0.16rem 0.16rem;
+						 background-position:4%  50%;}
+#number li:nth-of-type(3){background-image: url(../img/form3.png);
+						background-repeat: no-repeat;
+						 background-size:0.16rem 0.16rem;
+						 background-position:4%  50%;
+						 border-bottom: 5px solid #EEEEEE;
+						}	
+#number li:nth-of-type(4){background-image: url(../img/form4.png);
+						 background-repeat: no-repeat;
+						 background-size:0.15rem 0.17rem;
+						 background-position:4%  50%;}						 					 
+#number li:nth-of-type(5){background-image: url(../img/form5.png);
+						 background-repeat: no-repeat;
+						 background-size:0.14rem 0.18rem;
+						 background-position:4%  50%;}	
+#number li:nth-of-type(6){background-image: url(../img/form6.png);
+						 background-repeat: no-repeat;
+						 background-size:0.17rem 0.19rem;
+						 background-position:4%  50%;}	
+#prompt{padding-top: 0.12rem;
+		height: 0.9rem;}						 
+#prompt p{font-size: 13px;
+		line-height: 0.26rem;}
+#prompt p:nth-of-type(1){color:#B9D4FF ;
+	                     padding-left: 0.15rem;
+	                    
+						}
+#prompt p:nth-of-type(2){color:#CCCCCC;
+	                     padding-left: 0.15rem;
+						}
+				
+#bottom{font-size: 15px;
+		padding-left: 0.15rem;
+		width: 100%;
+		padding-top: 0.05rem;
+		padding-bottom:0.05rem ;
+		line-height: 0.35rem;
+		margin-right: 0.25rem;
+		border-top: solid 1px #EEEEEE;
+}
+#bottom p:nth-of-type(2){color:#B9D4FF;
+						line-height: 0.35rem;
+						width: 30%;}
+#bottom a{color: white;
+				display: block;
+				height: 0.35rem;
+				background: #7EB1FE;
+				text-align: center;	
+				width: 1.2rem;
+				border: none;
+				border-radius: 0.08rem;
+				margin-left: 14%;
+				}

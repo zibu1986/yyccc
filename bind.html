@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<title>绑定</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="bind/bind.css"/>
+        <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>	
+        <script src="bind/bind.js" type="text/javascript" charset="utf-8"></script>
+        
+	</head>
+	<body style="background-color: #f4f4f4;">
+		<div id="head" class="clearfix">
+			<a class="fl" href="javascript:history.back(-1)"></a>
+			<p class="fl">绑定</p>
+		</div>
+		<div id="content">
+			<input type="number" id="phone" onblur="upperCase()" onfocus="kong(0)" style="ime-mode:Disabled" placeholder="请输入手机号">
+			<p style="color: red;font-size: 13px;padding-left: 0.15rem;"></p>
+			<div id="" class="clearfix">
+				<input class="fl" type="text" style="width: 62%;display: block;border-top-right-radius: 0;border-bottom-right-radius: 0;" placeholder="请输入图形验证码" />
+				<img class="fl" style="margin-top: 0.08rem; border-top-right-radius: 0.08rem;border-bottom-right-radius: 0.08rem;  width: 38%;padding: 0;height: 0.45rem;margin-left: -1px;" src="img/4.png"/>
+			</div>
+			<p style="color: red;font-size: 13px;padding-left: 0.15rem;"></p>
+			<div id=""class="clearfix">
+				<input onfocus="kong(3)" class="fl" type="text" style="width: 62%;display: block;border-top-right-radius: 0;border-bottom-right-radius: 0;" placeholder="请输入验证码" />
+				<input class="fl" type="button" style="color: white; border-top-left-radius: 0;border-bottom-left-radius: 0; margin-left: -1px; width: 38%;display: block;padding: 0;background: #7EB1FE;" value="获取验证码" />
+			</div>
+			
+			<div id="constract" class="clearfix" >	
+				<a class="fr" href="regist.html" style="color:#A1A1A1 ;padding-right: 0.15rem;" href="">还没有账号点击注册</a>
+			</div>
+			<button>绑定</button>
+		</div>
+
+	</body>
+</html>

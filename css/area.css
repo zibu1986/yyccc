@@ -1,0 +1,20 @@
+.dqld_div{
+	width:100%;
+	background-color:#fff;
+	position: absolute;
+	top: 1rem;
+}
+
+.dqld_div ul{
+	width:90%;
+}
+
+.dqld_div ul li{
+	
+	width: 1rem;
+	font-size: 12px;
+	color: #666666;
+
+	line-height:0.28rem;	
+	margin-left:1.3rem;
+}

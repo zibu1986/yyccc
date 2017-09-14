@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<title>添加地址</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="css/area.css"/>
+        <link rel="stylesheet" type="text/css" href="adda/adda.css"/>
+        <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.js" ></script>
+        <script src="js/area.js" type="text/javascript" charset="utf-8"></script>
+        <script src="adda/adda.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+<body style="background: #F4F4F4;">
+	<div id="head" class="clearfix">
+		<a class="fl" href="javascript:history.back(-1)"></a>
+		<p class="fl">新增联系地址</p>
+	</div>
+	<ul id="content" >
+			<li class="clearfix">
+				<p class="fl">服务地址</p>
+				<div id="addAddress">
+	               <div class="address_input"><input class="address_input1" type="text" placeholder="请选择省市" id="shengshi" onClick="getProvinceBuy()" readonly="readonly"></div>
+                </div>
+			</li>
+			<li class="clearfix">
+				<p class="fl">街道社区</p>
+				<input class="fl"  type="text"  placeholder="请选择街道社区" />	
+			</li>
+			
+		</ul>
+		<div id="prompt1">
+		<p>你要添加的地址为：</p>
+		<p>北京东城</p>	
+	   </div>
+		<div id="prompt">
+		<p>温馨提示</p>
+		<p>清仔细核对你填写的地址，以方便商家更好的服务与您。</p>	
+	    </div>
+		<div id="button">
+			<button>确定新增</button>
+		</div>
+</body>
+</html>
+

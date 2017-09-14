@@ -1,0 +1,57 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p{text-align: center;
+        width: 40%;
+        margin-left: 24.3%;
+		font-size: 18px;
+		color: #333333;
+		margin-left: ;
+		}
+		#nav{display: flex;
+     justify-content: space-around;
+     border-bottom: solid white 2px;
+     height: 0.45rem;
+     line-height: 0.45rem;
+     font-size: 15px;
+     background-color: white;
+     color: #444444;
+     }
+ #nav p{padding-left: 10px;
+      	padding-right: 10px;
+      }	
+#nav .active{color: #7EB1FE;
+			border-bottom: solid 2px #7EB1FE;	
+    	}
+		
+#bottom {height: 0.45rem;
+		width: 3.75rem;
+		background: white;
+         padding-top: 0.05rem;
+         padding-bottom: 0.05rem;
+		border-bottom: solid 1px #EEEEEE;
+		border-bottom: solid 1px #EEEEEE;}
+			
+#bottom a{box-sizing: border-box;
+			display: block;
+			width: 25%;
+			border-left: solid 1px #EEEEEE;
+			
+			}
+#bottom a img{	width: 0.16rem;
+				height: 0.16rem;
+				display: block;
+				margin-left: 0.38rem;
+				margin-bottom: 0.05rem;
+				margin-top: 0.08rem;	         
+}
+#bottom a p{	font-size: 9px;
+				color: #ADADAD;
+				width: 100%;
+				text-align: center;			
+}
+		

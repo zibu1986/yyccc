@@ -1,0 +1,34 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p:nth-of-type(1){text-align: center;
+                        width: 40%;
+                        margin-left: 24.3%;
+						font-size: 18px;
+						color: #333333;
+						margin-left: ;
+						}
+#content input{ display: block;
+				width: 100%;
+				border:none;
+				height: 0.45rem;
+				line-height: 0.45rem;
+				margin-top: 0.14rem;
+				font-size: 15px;
+				padding-left: 0.15rem;
+				}
+#content button{width: 92%;
+		height: 0.45rem;
+		background-color: #7EB1FE;
+		border: none;
+		margin-left:4%;
+		margin-top: 0.25rem;
+		display: block;
+		font-size: 15px;
+		color: white;
+		border-radius: 5px;
+		}	

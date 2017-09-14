@@ -1,0 +1,79 @@
+#head{padding:13px 15px 13px 15px ;
+	 border-bottom: solid 1px #EEEEEE;
+	 background-color: white;}
+#head a{display: block;height: 19px;width: 0.2rem;
+		background-image: url(../img/pihead.png);
+		background-repeat: no-repeat;
+		background-size:12px 19px ;}
+#head p{text-align: center;
+        width: 40%;
+        margin-left: 24.3%;
+		font-size: 18px;
+		color: #333333;
+		margin-left: ;
+		}
+#content{background: white;
+		}
+#content li{margin-left: 0.15rem;
+			background-color: white;
+			background-repeat: no-repeat;
+			border-bottom: solid 1px #EEEEEE;
+			}
+#content li:nth-of-type(1){background-image: url(../img/perjtou.png);
+							background-size: 0.09rem 0.15rem  ;
+							background-position: 96%  center; }	
+								
+#content li p{font-size: 15px;
+			color: #444444;
+			width: 25%;
+			height: 0.45rem;
+			line-height: 0.45rem;
+			}
+#content li:nth-of-type(2){border: none;}
+#content li input{font-size:15px ;
+				display: block;
+				border: none;
+				width: 65%;
+				color: #444444;
+				height: 0.45rem;
+				line-height: 0.45rem;
+							
+							}
+							
+#prompt{padding-top: 0.12rem;background: white;
+		height: 0.9rem;}						 
+#prompt p{font-size: 13px;
+		line-height: 0.26rem;}
+#prompt p:nth-of-type(1){color:#B9D4FF ;
+	                     padding-left: 0.15rem;
+	                    
+						}
+#prompt p:nth-of-type(2){color:#CCCCCC;
+	                     padding-left: 0.15rem;
+						}							
+							
+#prompt1{padding-top: 0.12rem;background: white;margin-top: 0.05rem;margin-bottom: 0.01rem;
+		height: 0.9rem;}						 
+#prompt1 p{font-size: 13px;
+		line-height: 0.26rem;}
+#prompt1 p:nth-of-type(1){color: #CCCCCC;
+	                     padding-left: 0.15rem;
+	                    
+						}
+#prompt1 p:nth-of-type(2){color:#7EB1FE;
+ 						font-size: 15px;
+	                     padding-left: 0.15rem;
+						}
+
+button{width: 92%;
+		height: 0.45rem;
+		background-color: #7EB1FE;
+		border: none;
+		margin-left:4%;
+		margin-top: 0.26rem;
+		display: block;
+		font-size: 15px;
+		color: white;
+		border-radius: 5px;
+		}	
+		
